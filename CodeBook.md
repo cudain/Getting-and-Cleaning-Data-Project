@@ -63,3 +63,19 @@ There are 5 parts:
 * Working with "train" - the related files
 * Working with merge data - "test" and "train"
 * Get variable columns that need calculation and create second tidy_data.txt.
+
+## Understand the variable used:
+
+X_test - test set
+y_test - test label
+subject_test - subject test data
+X_train - train set
+y_train - train label
+subject_train - subject train data
+
+test_data - binded test data
+train_data - binded train data
+
+data - merge data of test data and train data
+melt_data - "melted" data from wide to long
+tidy_data - data with mean of every variables
